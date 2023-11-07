@@ -1,0 +1,57 @@
+a{
+   color: green;
+   padding: 10px;
+}
+a:hover{
+   color: red;
+}
+td{
+   border-right: 2px solid  red;
+}
+td:last-of-type{
+   border-right: 0;
+}
+.Second div{
+   display: inline;
+   border-right: 2px solid red;
+}
+.Second div:first-of-type{
+   margin-left: 3px;
+}
+.Second div:last-of-type{
+   border-right: 0;
+}
+.Third a{
+   padding-left: 6px;
+}
+.Third a:first-child{
+   padding-left: 13px;
+}
+.Third a::after{
+   content: ' \2758';
+   color: red;
+}
+.Third a:last-of-type::after{
+   content: none;
+}
+.Forth a{
+   padding-left: 14px;
+}
+.Forth a:first-child{
+   padding-left: 12px;
+}
+.Forth img{
+   height: 20px;
+   position: relative;
+   bottom: -0.2em;
+}
+.Fifth div{
+   display: inline;
+   padding-left: 2px;
+   background-image: url(images/red3.jpeg);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.Fifth div:last-of-type{
+background-image: none;
+}
